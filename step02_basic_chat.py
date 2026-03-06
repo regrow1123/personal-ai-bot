@@ -7,7 +7,7 @@ from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, SystemMessage
 
 # Ollama 로컬 모델 연결
-llm = ChatOllama(model="llama3.2")
+llm = ChatOllama(model="qwen3:4b")
 
 # 대화 이력 관리
 messages = [
