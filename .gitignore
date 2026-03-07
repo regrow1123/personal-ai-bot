@@ -5,3 +5,4 @@ config.json
 venv/
 .venv/
 .env
+chroma_db/
