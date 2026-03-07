@@ -6,3 +6,4 @@ venv/
 .venv/
 .env
 chroma_db/
+chat_history.db
