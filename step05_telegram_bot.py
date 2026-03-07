@@ -86,7 +86,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # === 봇 실행 ===
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8761707256:AAE4eLE14fC2zGxEnp6EWie5VC_MdqfNqt0")
+BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
 app = Application.builder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("start", start))
